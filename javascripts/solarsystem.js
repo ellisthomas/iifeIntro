@@ -3,8 +3,8 @@ var SolarSystem = (function() {
   var planets = ["mercury", "venus", "earth", "mars", "jupiter", "saturn", "uranus", "neptune"];
   var dwaftPlanets = ["pluto"];
   var numPlanetsPeopleLanedOn = 0;
-  var stars = ["Sun", "Alpha Centauri", "Wolf 359"];
-  var age = 0;
+  
+  
 
   return {
 	getPlanets : function(){
@@ -22,18 +22,9 @@ var SolarSystem = (function() {
 	setDwarftPlanets : function(){
 	  dwaftPlanets.push(lumpOfRock);
 	},
-	getStars : function(){
-	  return stars;
-	},
-	setStars : function(newStar){
-	  stars.push(newStar);
-	},
-	getSolarSystemAge : function(){
-	  return age;
-	},
-	setSolarSystemAge : function(){
-      age++;
-	}
+	
+	
+	
   }
 })();
 
